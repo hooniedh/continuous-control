@@ -28,7 +28,7 @@ The entry point of the training is train() function in training.py. The train fu
 - 3 fully connected hidden layers
 - 256 nodes on the first layer
 - 256 nodes on the second layer
-- 123 on the third layer
+- 128 on the third layer
 - As in the original DDPG paper, the actions are concatenated to the hidden nodes on the first layer before executing the forward pass from the first hidden layer to the second hidden layer.
 
 ### hyperparameters
