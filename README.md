@@ -3,9 +3,9 @@ This is my solution to Udacity reinforcement learning nanodegree **continuous co
 ### environment
 The environment is provided by Udacity and it is made from the Unity ML agent (https://github.com/Unity-Technologies/ml-agents).
 There are 20 agents in this environment. Each agent is a double jointed arm that can move to target locations. 
-- The environment returns 37 floats as the states in each step.
+- The environment returns 33 floats as the states for an agent in each step so the environment returns 20 X 33 floats.
 - There are four actions available to an agent and the actions are continuous between -1 and 1.
-- A reward of +0.1 is provided for each step that the agent's hand is in the goal location
+- A reward of +0.1 is provided for each step that an agent's hand is in the goal location
    
 The environment is considered as solved if the average reward over all the agents over 100 consecutive episodes is greater or equal to +30.
   
