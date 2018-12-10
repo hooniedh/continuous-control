@@ -13,7 +13,7 @@ The environment is considered as solved if the average reward over all the agent
 This project depends on Pytorch and Unity ML agents.
 - Pytorch: https://pytorch.org/
 - Unity ML agents: https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
-- Udacity navigation environment: https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation
+- Udacity navigation environment: https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control
 
 **It is important to note that the agent provided by Udacity is only compatible with Unity ML agent version 0.4.0. It can be downloaded from https://github.com/Unity-Technologies/ml-agents/releases.**
 
