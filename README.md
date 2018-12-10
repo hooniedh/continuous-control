@@ -1,5 +1,5 @@
 # continuous control
-This is my solution to Udacity reinforcement learning nanodegree **continuous control** project. Deep Q networks are used.
+This is my solution to Udacity reinforcement learning nanodegree **continuous control** project. DDPG(Deep Deterministic Policy Gradient) networks are used.
 ### environment
 The environment is provided by Udacity and it is made from the Unity ML agent (https://github.com/Unity-Technologies/ml-agents).
 There are 20 agents in this environment. Each agent is a double jointed arm that can move to target locations. 
