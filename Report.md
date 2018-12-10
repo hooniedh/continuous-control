@@ -1,7 +1,7 @@
 ### learning Algorithm
 I implemented DDPG (Deep Deterministic Policy Gradient) networks (https://arxiv.org/abs/1509.02971). The implementation is quite similar to the algorithm in the paper but I applied a constant decay (0.99 per episode) to the OU noise to make the learning more stable once it starts converging.
 
-The learning agent is created by calling createAgent function in ddpg_agent.py with these parameters:
+The learning agent is created with these parameters:
 - num_agents: the number of agents in the environment
 - state_size: the number of states
 - action_size: the number of actions
